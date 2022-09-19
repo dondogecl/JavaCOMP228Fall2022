@@ -26,3 +26,6 @@ replay_pid*
 # vscode files
 .vscode/
 .vscode/*
+
+# ios files
+.DS_Store
