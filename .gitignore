@@ -29,3 +29,5 @@ replay_pid*
 
 # ios files
 .DS_Store
+
+.history/
