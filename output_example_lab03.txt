@@ -1,0 +1,67 @@
+*********************************
+Mortgages
+Simulator
+*********************************
+Welcome, user. This program will simulate your mortgage, based on the data you provide.
+We will perform 3 evaluations.
+Please indicate the current interest rate: (example: 1 for 1 percent, 2.5 for 2.5 percent)
+5
+_________________________________
+Mortgage number is: 1
+Please input the customer name:
+Aba
+Please tell us your mortgage Amount:
+50000
+Please select a Type of Mortgage. Valid options are: business, personal
+business
+Please select a term. Valid options are: short, medium, long
+medium
+Term is medium
+_________________________________
+Mortgage number is: 2
+Please input the customer name:
+asoas
+Please tell us your mortgage Amount:
+59045
+Please select a Type of Mortgage. Valid options are: business, personal
+personal
+Please select a term. Valid options are: short, medium, long
+e4w3
+_________________________________
+Mortgage number is: 3
+Please input the customer name:
+Pil
+Please tell us your mortgage Amount:
+99999
+Please select a Type of Mortgage. Valid options are: business, personal
+business
+Please select a term. Valid options are: short, medium, long
+long
+Term is long
+
+_______________________________
+* Bank : CityToronto*
+Simulation #1 for Customer Aba
+Amount of mortgage requested: 150000.0
+Term: medium which lasts 3 years.
+Amount to pay: 159000.0
+Interest rate: 0.060000000000000005%
+_______________________________
+* Bank : CityToronto*
+Simulation #2 for Customer asoas
+Amount of mortgage requested: 59045.0
+Term: short which lasts 1 years.
+Amount to pay: 63178.15
+Interest rate: 0.07%
+_______________________________
+* Bank : CityToronto*
+Simulation #3 for Customer Pil
+Amount of mortgage requested: 499995.0
+Term: long which lasts 5 years.
+Amount to pay: 529994.7000000001
+Interest rate: 0.060000000000000005%
+_______________________________
+
+***
+Thanks for using our Mortgage Simulator tool, have a nice day.
+***
