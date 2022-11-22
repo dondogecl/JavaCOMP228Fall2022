@@ -1,0 +1,18 @@
+.root {
+	-fx-background-color: black;
+	-fx-color: white;
+}
+
+.label {
+	-fx-font-size: 1.1em;
+	-fx-font-family: "Lucida Console", Arial;
+	 -fx-text-fill: white;
+}
+
+#titleLabel {
+	-fx-font-size: 1.6em;
+}
+
+#myBox * {
+	-fx-text-fill: black;
+}

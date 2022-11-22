@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exercise1.Controller">
+   <children>
+      <Label layoutX="16.0" layoutY="41.0" text="Name" />
+      <TextField fx:id="nameInput" layoutX="140.0" layoutY="38.0" />
+      <Label layoutX="18.0" layoutY="94.0" text="Address" />
+      <Label layoutX="16.0" layoutY="144.0" text="Province" />
+      <Label layoutX="18.0" layoutY="200.0" text="City" />
+      <Label layoutX="18.0" layoutY="248.0" text="Postal Code" />
+      <TextField fx:id="addressInput" layoutX="140.0" layoutY="91.0" />
+      <TextField fx:id="provinceInput" layoutX="140.0" layoutY="140.0" />
+      <TextField fx:id="cityInput" layoutX="140.0" layoutY="197.0" />
+      <TextField fx:id="postalInput" layoutX="140.0" layoutY="245.0" />
+      <TextField fx:id="phoneInput" layoutX="407.0" layoutY="37.0" />
+      <TextField fx:id="emailInput" layoutX="407.0" layoutY="90.0" />
+      <Label layoutX="334.0" layoutY="41.0" text="Phone" />
+      <Label layoutX="334.0" layoutY="94.0" text="Email" />
+      <Label layoutX="334.0" layoutY="127.0" text="Mayor" />
+      <RadioButton fx:id="csRadioBtn" layoutX="409.0" layoutY="127.0" mnemonicParsing="false" onAction="#enableBox" text="Computer Science">
+         <toggleGroup>
+            <ToggleGroup fx:id="programGroup" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="businessRadioBtn" layoutX="409.0" layoutY="162.0" mnemonicParsing="false" onAction="#enableBox" text="Business" toggleGroup="$programGroup" />
+      <Label layoutX="331.0" layoutY="192.0" text="Program" />
+      <Label layoutX="18.0" layoutY="291.0" text="Activities" />
+      <CheckBox fx:id="sportCheckbox" layoutX="137.0" layoutY="291.0" mnemonicParsing="false" text="Sport Club" />
+      <CheckBox fx:id="hackCheckbox" layoutX="137.0" layoutY="319.0" mnemonicParsing="false" text="Hacking Club" />
+      <CheckBox fx:id="volunteerCheckbox" layoutX="137.0" layoutY="346.0" mnemonicParsing="false" text="Volunteer group" />
+      <Button fx:id="sendButton" layoutX="18.0" layoutY="338.0" mnemonicParsing="false" onAction="#submitForm" text="Send" />
+      <ChoiceBox id="myBox" fx:id="myBox" layoutX="415.0" layoutY="188.0" prefWidth="150.0" />
+      <ListView fx:id="listView" layoutX="417.0" layoutY="242.0" prefHeight="116.0" prefWidth="149.0" />
+   </children>
+</AnchorPane>
